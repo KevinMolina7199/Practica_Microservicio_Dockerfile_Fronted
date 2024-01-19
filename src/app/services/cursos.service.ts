@@ -10,7 +10,7 @@ import { Cursos } from '../clases/cursos';
 export class CursosService {
 
   //LISTA DE CURSOS DEL BACKEND
-  private baseURL = "http://localhost:8081/api/cource";
+  private baseURL = "http://34.30.217.33/back/api/cource";
 
   constructor(private httpClient: HttpClient) { }
 

@@ -10,7 +10,7 @@
     <tbody>
         <tr *ngFor = "let curso of cursos">
             <td>{{curso.name}}</td>
-            <td>{{curso.descripccion}}</td>
+            <td>{{curso.description}}</td>
             <td>{{curso.price}}</td>
             <td>
                 <button (click)= "eliminarCurso(curso.id)" class="btn btn-info">Eliminar</button>

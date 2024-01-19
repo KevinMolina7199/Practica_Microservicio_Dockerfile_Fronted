@@ -1,6 +1,6 @@
 export class Cursos {
     id:number;
     name: String;
-    descripccion: String;
+    description: String;
     price: number;
 }
